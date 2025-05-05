@@ -1,0 +1,28 @@
+﻿📌 Descripción general
+Este programa en Java solicita al usuario que ingrese un número del 1 al 5 y muestra en pantalla una estación del año o una festividad correspondiente a ese número. Si el número ingresado no está dentro del rango válido, se muestra un mensaje indicando que la opción no es válida.
+🧩 Funcionamiento
+1. Se utiliza la clase Scanner para leer la entrada del usuario desde la consola.
+
+2. El número ingresado se evalúa con una estructura switch.
+
+3. Dependiendo del valor, se imprime:
+
+   * 1 → "Primavera"
+
+   * 2 → "Verano"
+
+   * 3 → "Otoño"
+
+   * 4 → "Halloween"
+
+   * 5 → "Invierno"
+
+      4. Si el valor no está entre 1 y 5, se imprime: "No es valido".
+
+🛠️ Dependencias
+         * java.util.Scanner — Para leer datos desde la consola.
+
+📥 Entrada esperada
+Un número entero entre 1 y 5.
+📤 Salida
+Un mensaje que representa una estación del año o "Halloween".
